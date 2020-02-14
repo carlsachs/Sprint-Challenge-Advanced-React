@@ -10,8 +10,8 @@ it('renders without crashing', () => {
 });
 
 test('heading is working', () => {
-  const {queryByText} = render(<App />);
-  const heading = queryByText(/happy building/i);
+  const {getByText} = render(<App />);
+  const heading = getByText(/happy building/i);
   expect(heading).toBeInTheDocument();
 }); 
 
