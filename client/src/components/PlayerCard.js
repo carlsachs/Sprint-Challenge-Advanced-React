@@ -3,12 +3,11 @@ import "../App.css";
 import styled from "styled-components";
 
 const Card = styled.div`
-
+    
     background-color: green;
     width:25%;
     margin: 0 auto;
     padding-bottom: 20px;
-    padding-top: 20px;
     h1 {
         color: lightblue;
         background red;
