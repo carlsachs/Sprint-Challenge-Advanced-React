@@ -24,7 +24,7 @@ const PlayerCard = ({playerInfo}) => {
     const { name, country, searches } = playerInfo;
     return (
         <Card>
-            <h1>name: {playerInfo.name} </h1>
+            <h1>Name: {playerInfo.name} </h1>
             <p> Country: {playerInfo.country} </p>
             <p> Searches: {playerInfo.searches} </p>
             

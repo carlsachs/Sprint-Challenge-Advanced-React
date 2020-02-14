@@ -8,6 +8,7 @@
     "body-parser": "^1.18.3",
     "cors": "^2.8.3",
     "express": "^4.15.2",
+    "mutationobserver-shim": "^0.3.3",
     "styled-components": "^5.0.1"
   },
   "devDependencies": {
