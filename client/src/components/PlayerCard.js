@@ -20,7 +20,6 @@ const Card = styled.div`
 `;
 
 const PlayerCard = ({playerInfo}) => {
-    // console.log(playerInfo)
     const { name, country, searches } = playerInfo;
     return (
         <Card>

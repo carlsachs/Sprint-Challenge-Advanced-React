@@ -12,5 +12,13 @@ it('renders without crashing', () => {
 test('heading is working', () => {
   const {queryByText} = render(<App />);
   const heading = queryByText(/happy building/i);
-  expect(heading).not.toBeInTheDocument();
+  expect(heading).toBeInTheDocument();
 }); 
+
+test('name appears on page', () => {
+  const {queryByText} = render(<App />);
+  const card = queryByText(/name/i);
+  expect(card).not.toBeInTheDocument();
+}); 
+
+
