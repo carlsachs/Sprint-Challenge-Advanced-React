@@ -31,3 +31,7 @@
     transform: rotate(360deg);
   }
 }
+.dark-mode {
+  background: rgb(17,42,121);
+background: radial-gradient(circle, rgba(17,42,121,0.9612219887955182) 0%, rgba(75,118,255,1) 91%, rgba(0,38,159,0.908000700280112) 100%);
+}

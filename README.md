@@ -61,3 +61,12 @@ Your finished project must include all of the following requirements:
 
 - [ ] Implement another custom hook
 - [ ] Use a graphing library to graph the data you received from the API
+
+ Why would you use class component over function components (removing hooks from the question)? You wouldn't, this is a trick question.
+
+ Name three lifecycle methods and their purposes. 1.) Render(), renders the return to the screen. 2.)componentDidMount(), starts things once the page 
+has loaded for the user, starts things such as api calls, modal pop ups in useEffects, etc. 3.) componentDidUpdate(), updates things. 
+
+ What is the purpose of a custom hook? it reduces the need for us to convert to class components.
+
+ Why is it important to test our apps? So when we have a developer job or a client we build for, we can have proof we exchanged the product in good health.
