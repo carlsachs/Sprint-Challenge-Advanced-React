@@ -29,7 +29,7 @@ class App extends Component {
       return (
         <div className="App">
           
-          <div className="container">
+          <div>
             <h1>Happy building <span role="img" aria-label="Smiling emoji">😃</span></h1>
 
             <NavButton />
